@@ -1,0 +1,47 @@
+name: minigun
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Minigun'
+  lore:
+  - '&aBullets: 0/200'
+  - '&aDamage: 2.0'
+  - '&2DPS: 20.0'
+  - '&aAmmo: &f5.56 NATO'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;575362380,-1512160152,-1418139046,-571904235]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 56
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcc
+  - dcc
+  - ecc
+  shaped: true
+  items:
+  - item: minigun_body
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: giant_magazine
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: minecraft:NETHERITE_SCRAP
+    amount: 1
+    allowDamaged: false
+    key: e

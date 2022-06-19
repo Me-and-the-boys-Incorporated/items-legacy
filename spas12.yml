@@ -1,0 +1,46 @@
+name: spas12
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Spas-12'
+  lore:
+  - '&aBullets: 0/8'
+  - '&aDamage: 2.0'
+  - '&2DPS: 6.0x20'
+  - '&aAmmo: &fBuckshot'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1132358679,-1660008565,-1652768240,103331086]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 17
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - xcd
+  - exx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: Shotgun_Body
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: Shotgun_Barrel
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: Shotgun_Butt
+    amount: 1
+    allowDamaged: false
+    key: e
+handlers: {}

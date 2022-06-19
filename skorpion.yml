@@ -1,0 +1,43 @@
+name: skorpion
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Skorpion vz.61'
+  lore:
+  - '&aBullets: 0/20'
+  - '&aDamage: 2.0'
+  - '&2DPS: 12.0'
+  - '&aAmmo: &f9mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-1043377531,-1442689677,-2100568985,625081904]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 50
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - xbc
+  - xdx
+  shaped: true
+  items:
+  - item: skorpion_body
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: smg_magazine
+    amount: 1
+    allowDamaged: false
+    key: d

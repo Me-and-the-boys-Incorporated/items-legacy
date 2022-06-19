@@ -1,0 +1,31 @@
+name: scope
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fScope'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 19
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bbb
+  - ccc
+  - bbb
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:GLASS
+    amount: 1
+    allowDamaged: false
+    key: c

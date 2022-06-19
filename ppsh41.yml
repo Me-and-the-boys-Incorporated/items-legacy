@@ -1,0 +1,35 @@
+name: ppsh41
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fPPSh-41 Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 70
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bcc
+  - ddx
+  shaped: true
+  items:
+  - item: minecraft:IRON_NUGGET
+    amount: 3
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: d

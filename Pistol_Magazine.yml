@@ -1,0 +1,27 @@
+name: Pistol Magazine
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fPistol Magazine'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 28
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - xbx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+handlers: {}

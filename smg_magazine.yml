@@ -1,0 +1,27 @@
+name: smg_magazine
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fSmg Magazine'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 20
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - xbx
+  - bxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b

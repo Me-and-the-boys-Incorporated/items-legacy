@@ -1,0 +1,27 @@
+name: Vera Body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fVera Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 82
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxb
+  - bbb
+  - bxx
+  shaped: true
+  items:
+  - item: scrap_metal
+    amount: 1
+    allowDamaged: false
+    key: b

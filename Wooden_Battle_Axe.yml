@@ -1,0 +1,47 @@
+name: Wooden_Battle_Axe
+category: weapons
+item:
+  material: WOODEN_AXE
+  displayName: '&fWooden Battle Axe'
+  textureID: 1
+
+  attributes:
+    attackDamage: 9.5
+    attackSpeed: -3.5
+
+  durability: 250
+  damageable: true
+
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bcb
+  - xdx
+  - xdx
+  shaped: true
+  items:
+  - item: wooden_axe_blade
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: d

@@ -1,0 +1,27 @@
+name: wooden_stock
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fWooden Stock'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 16
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bbb
+  - bbx
+  - bxx
+  shaped: true
+  items:
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: b

@@ -1,0 +1,47 @@
+name: m40
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6M40'
+  lore:
+  - '&aBullets: 0/6'
+  - '&aDamage: 10.0'
+  - '&2DPS: 10.0'
+  - '&aAmmo: &f7.62x39mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;988596261,-742307963,-1206271550,-1004910983]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 12
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - cde
+  - xxx
+  shaped: true
+  items:
+  - item: scope
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: wooden_stock
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: m40_body
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: e
+handlers: {}

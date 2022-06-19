@@ -1,0 +1,50 @@
+name: val
+item:
+  material: CROSSBOW
+  displayName: '&6AS-Val'
+  lore:
+  - '&aBullets: 30/30'
+  - '&aDamage: 3.0'
+  - '&2DPS: 18.0'
+  - '&aAmmo: &f7.62x39mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;2130894345,976045402,-1401057575,-731203939]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 58
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - cde
+  - xfx
+  shaped: true
+  items:
+  - item: scope
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: iron_stock
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: m4a1s_body
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: long_barrel
+    amount: 1
+    allowDamaged: false
+    key: e
+  - item: riffle_magazine
+    amount: 1
+    allowDamaged: false
+    key: f
+handlers: {}

@@ -1,0 +1,28 @@
+name: left_stone_axe_blade
+category: weapon_parts
+
+item:
+  material: IRON_INGOT
+  displayName: Stone Axe Blade
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 9
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - bxx
+  - xbx
+  shaped: true
+  items:
+  - item: minecraft:COBBLESTONE
+    amount: 1
+    allowDamaged: false
+    key: b
+handlers: {}

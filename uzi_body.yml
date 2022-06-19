@@ -1,0 +1,31 @@
+name: uzi_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fUzi Body'
+  nbt: '{}'
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - bbb
+  - bcb
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}
+texture:
+  type: item
+  item:
+    id: 76

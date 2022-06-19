@@ -1,0 +1,47 @@
+name: Stone_Battle_Axe
+category: weapons
+item:
+  material: STONE_AXE
+  displayName: '&fStone Battle Axe'
+  textureID: 1
+
+  attributes:
+    attackDamage: 11.5
+    attackSpeed: -3.5
+
+  durability: 250
+  damageable: true
+
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bcb
+  - xdx
+  - xdx
+  shaped: true
+  items:
+  - item: stone_axe_blade
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STONE
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: d

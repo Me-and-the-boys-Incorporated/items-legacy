@@ -1,0 +1,35 @@
+name: long_barrel
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fLong Barrel'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 14
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bcd
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_SCRAP
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+    key: d

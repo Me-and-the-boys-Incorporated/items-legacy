@@ -1,0 +1,34 @@
+name: scrap_metal
+category: materials
+item:
+  material: IRON_INGOT
+  displayName: Scrap Metal
+  lore:
+  - '&7Made from trash'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 83
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcx
+  - cbx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:RAW_COPPER
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:RAW_IRON
+    amount: 1
+    allowDamaged: false
+    key: c
+  resultAmount: 5

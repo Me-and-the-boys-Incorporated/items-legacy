@@ -1,0 +1,30 @@
+name: netherite_dagger
+category: weapons
+
+item:
+  material: NETHERITE_SWORD
+  displayName: Netherite Dagger
+  textureID: 2
+  attributes:
+    attackDamage: 6
+    attackSpeed: 0.5
+  durability: 600
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shaped: false
+  items:
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+  - item: diamond_dagger
+    amount: 1
+    allowDamaged: false
+handlers: {}

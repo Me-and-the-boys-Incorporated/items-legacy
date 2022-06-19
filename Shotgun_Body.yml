@@ -1,0 +1,32 @@
+name: Shotgun_Body
+category: gun_parts
+
+item:
+  material: IRON_INGOT
+  displayName: '&fShotgun Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 38
+canBeUsedGenerically: false
+canBePlaced: true
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - xbc
+  - bxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_SCRAP
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

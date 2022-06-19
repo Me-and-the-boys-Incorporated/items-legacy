@@ -1,0 +1,35 @@
+name: stg44_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fSturmgewehr 44 Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 67
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcc
+  - ccc
+  - dxx
+  shaped: true
+  items:
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:IRON_NUGGET
+    amount: 9
+    allowDamaged: false
+    key: d

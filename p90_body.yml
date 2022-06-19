@@ -1,0 +1,31 @@
+name: p90_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fP90 Body'
+  nbt: '{}'
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bbc
+  - bxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_SCRAP
+    amount: 1
+    allowDamaged: false
+    key: c
+texture:
+  type: item
+  item:
+    id: 81

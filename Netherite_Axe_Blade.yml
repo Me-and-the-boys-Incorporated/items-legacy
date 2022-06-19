@@ -1,0 +1,25 @@
+name: Left_Netherite_Axe_Blade
+category: weapon_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fNetherite Axe Blade'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 1
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shaped: false
+  items:
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+  - item: diamond_axe_blade
+    amount: 1
+    allowDamaged: false

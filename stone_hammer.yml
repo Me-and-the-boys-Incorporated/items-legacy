@@ -1,0 +1,38 @@
+name: stone_hammer
+category: weapons
+
+item:
+  material: STONE_AXE
+  displayName: Stone War Hammer
+  textureID: 2
+  attributes:
+    attackDamage: 10.5
+    attackSpeed: -3
+  enchantments: 
+    "minecraft:KNOCKBACK": 1
+  durability: 250
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbb
+  - xbb
+  - cxx
+  shaped: true
+  items:
+  - item: minecraft:COBBLESTONE
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

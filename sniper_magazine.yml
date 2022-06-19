@@ -1,0 +1,31 @@
+name: snipper_magazine
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fSniper Magazine'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 22
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bbc
+  - bbb
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c

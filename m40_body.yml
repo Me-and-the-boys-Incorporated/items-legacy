@@ -1,0 +1,31 @@
+name: m40_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fM40 Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 58
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbc
+  - ccc
+  - cxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: c

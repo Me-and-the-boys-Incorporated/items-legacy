@@ -1,0 +1,34 @@
+name: wooden_rapier
+category: weapons
+item:
+  material: WOODEN_HOE
+  displayName: Wooden Rapier
+  textureID: 1
+  attributes:
+    attackDamage: 2
+    attackSpeed: 1
+  durability: 59
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - bbb
+  - xcx
+  shaped: true
+  items:
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c

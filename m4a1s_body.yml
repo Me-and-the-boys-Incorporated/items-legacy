@@ -1,0 +1,31 @@
+name: m4a1s_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: M4a1s Body
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 33
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bbx
+  - bcb
+  - bxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c

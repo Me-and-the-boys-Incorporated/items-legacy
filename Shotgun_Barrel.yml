@@ -1,0 +1,31 @@
+name: Shotgun_Barrel
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fShotgun Barrel'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 37
+canBeUsedGenerically: false
+canBePlaced: true
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bbc
+  - bbx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_SCRAP
+    amount: 1
+    allowDamaged: false
+    key: c

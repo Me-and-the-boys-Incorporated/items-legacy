@@ -1,0 +1,31 @@
+name: magnum_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fMagnum Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 62
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcc
+  - ccc
+  - cbx
+  shaped: true
+  items:
+  - item: minecraft:IRON_NUGGET
+    amount: 3
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c

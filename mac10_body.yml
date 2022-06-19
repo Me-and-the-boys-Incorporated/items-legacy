@@ -1,0 +1,31 @@
+name: mac10_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fMac-10 Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 68
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcc
+  - ccx
+  - xcx
+  shaped: true
+  items:
+  - item: minecraft:IRON_NUGGET
+    amount: 9
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c

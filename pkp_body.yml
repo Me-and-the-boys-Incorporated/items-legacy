@@ -1,0 +1,31 @@
+name: pkp_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fPkp Body'
+  nbt: '{}'
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bbb
+  - bcx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: c
+texture:
+  type: item
+  item:
+    id: 78

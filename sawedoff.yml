@@ -1,0 +1,39 @@
+name: sawedoff
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Sawed-off Shotgun'
+  lore:
+  - '&aBullets: 0/2'
+  - '&aDamage: 2.0'
+  - '&2DPS: 6.0x20'
+  - '&aAmmo: &fBuckshot'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1442691445,-436843519,-1542191853,922661592]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 63
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bbx
+  - cxx
+  - xxx
+  shaped: true
+  items:
+  - item: Shotgun_Barrel
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: Shotgun_Butt
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

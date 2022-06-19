@@ -1,0 +1,27 @@
+name: Pistol_Body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fPistol Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 27
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bbb
+  - bbb
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: b
+handlers: {}

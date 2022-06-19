@@ -1,0 +1,33 @@
+name: musket_ball
+category: ammo
+
+item:
+  material: PHANTOM_MEMBRANE
+  displayName: '&fMusket Ball'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-272620029,-1624160838,-1915661997,136458536]}],Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 6
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - bbb
+  - cxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:GUNPOWDER
+    amount: 1
+    allowDamaged: false
+    key: c
+  resultAmount: 16
+handlers: {}

@@ -1,0 +1,25 @@
+name: plastic
+category: materials
+item:
+  material: IRON_INGOT
+  displayName: '&fPlastic'
+  lore:
+  - '&7To craft it just cook slime on a furnace'
+  nbt: '{}'
+
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+  -
+    type: "furnace"
+    exp: 5
+    time: 100
+    ingredient: "slime_ball"
+texture:
+ type: item
+ item:
+   id: 74
+

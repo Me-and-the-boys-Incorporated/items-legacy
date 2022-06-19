@@ -1,0 +1,58 @@
+name: Vera
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Vera'
+  lore:
+  - '&fThe Callahan Full-bore Auto-lock.'
+  - '&7"Customized trigger, �'
+  - '&7double cartridge thorough gauge.'
+  - '&7It is my very favorite gun '
+  - '&7This is the best gun made by man.'
+  - '&7 It has extreme sentimental value '
+  - '&7I call her Vera."-Jayne Cobb'
+  - '&aBullets: 0/15'
+  - '&aDamage: 3.0'
+  - '&2DPS: 12.0'
+  - '&aAmmo: &f5.56 NATO'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1208389224,-1817818832,-1506300491,-1102282889]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 45
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - cde
+  - xfx
+  shaped: true
+  items:
+  - item: scope
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: iron_stock
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: vera_body
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: e
+  - item: riffle_magazine
+    amount: 1
+    allowDamaged: false
+    key: f

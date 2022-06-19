@@ -1,0 +1,43 @@
+name: mp5k
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6MP5K'
+  lore:
+  - '&aBullets: 0/32'
+  - '&aDamage: 2.0'
+  - '&2DPS: 12.0'
+  - '&aAmmo: &f9mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1294666477,600457670,-1775358107,2123040027]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 3
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - bcx
+  - xdx
+  shaped: true
+  items:
+  - item: iron_stock
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: mp5k_body
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: smg_magazine
+    amount: 1
+    allowDamaged: false
+    key: d
+handlers: {}

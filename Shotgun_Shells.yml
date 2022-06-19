@@ -1,0 +1,40 @@
+name: Shotgun_Shells
+category: ammo
+item:
+  material: PHANTOM_MEMBRANE
+  displayName: '&fBuckshot'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 4
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcb
+  - bdb
+  - eee
+  shaped: true
+  items:
+  - item: minecraft:PAPER
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_NUGGET
+    amount: 5
+    allowDamaged: false
+    key: c
+  - item: minecraft:GUNPOWDER
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: e
+  resultAmount: 4

@@ -1,0 +1,32 @@
+name: netherite_hammer
+category: weapons
+
+item:
+  material: NETHERITE_AXE
+  displayName: 'Netherite War Hammer'
+  textureID: 2
+  attributes:
+    attackDamage: 12.5
+    attackSpeed: -3
+  enchantments:
+    "minecraft:KNOCKBACK": 2
+  durability: 2231
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shaped: false
+  items:
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+  - item: diamond_hammer
+    amount: 1
+    allowDamaged: false
+handlers: {}

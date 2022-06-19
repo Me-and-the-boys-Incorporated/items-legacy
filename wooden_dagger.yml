@@ -1,0 +1,34 @@
+name: wooden_dagger
+category: weapons
+item:
+  material: WOODEN_SWORD
+  displayName: Wooden Dagger
+  textureID: 2
+  attributes:
+    attackDamage: 2
+    attackSpeed: 0.5
+  durability: 100
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - xcx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c

@@ -1,0 +1,44 @@
+name: m79
+category: guns
+
+item:
+  material: CROSSBOW
+  displayName: '&6M79 "Thumper"'
+  lore:
+  - '&aBullets: 0/1'
+  - '&aDamage: 100.0'
+  - '&2DPS: 100.0'
+  - '&aAmmo: &f40x46mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{Charged:0b,Damage:0}'
+texture:
+  type: item
+  item:
+    id: 55
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - cdx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: wooden_stock
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: gigabarrel
+    amount: 1
+    allowDamaged: false
+    key: d

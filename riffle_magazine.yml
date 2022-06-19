@@ -1,0 +1,31 @@
+name: riffle_magazine
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fRiffle Magazine'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 21
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbb
+  - xcc
+  - xcc
+  shaped: true
+  items:
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c

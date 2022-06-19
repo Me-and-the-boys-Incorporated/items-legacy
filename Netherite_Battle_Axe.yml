@@ -1,0 +1,37 @@
+name: Netherite_Battle_Axe
+category: weapons
+item:
+  material: NETHERITE_AXE
+  displayName: '&fNetherite Battle Axe'
+  textureID: 1
+
+  attributes:
+    attackDamage: 13.5
+    attackSpeed: -3.0
+
+  durability: 2231
+  damageable: true
+
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shaped: false
+  items:
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+  - item: Diamond_Battle_Axe
+    amount: 1
+    allowDamaged: false

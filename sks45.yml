@@ -1,0 +1,43 @@
+name: sks45
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6SKS-45'
+  lore:
+  - '&aBullets: 0/10'
+  - '&aDamage: 7.0'
+  - '&2DPS: 7.0'
+  - '&aAmmo: &f7.62x39mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{Charged:0b,Damage:0}'
+texture:
+  type: item
+  item:
+    id: 51
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - bcd
+  - xxx
+  shaped: true
+  items:
+  - item: wooden_stock
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: sks_body
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: d
+handlers: {}

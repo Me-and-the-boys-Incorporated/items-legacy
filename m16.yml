@@ -1,0 +1,50 @@
+name: m16
+item:
+  material: CROSSBOW
+  displayName: '&6M16'
+  lore:
+  - '&aBullets: 30/30'
+  - '&aDamage: 3.0'
+  - '&2DPS: 12.0'
+  - '&aAmmo: &f5.56 NATO'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-700318305,897795143,-1706448838,-1483237277]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 6
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - bcd
+  - xef
+  shaped: true
+  items:
+  - item: iron_stock
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: m4a1s_body
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: riffle_magazine
+    amount: 1
+    allowDamaged: false
+    key: e
+  - item: plastic
+    amount: 1
+    allowDamaged: false
+    key: f
+handlers: {}

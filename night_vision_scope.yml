@@ -1,0 +1,35 @@
+name: night_vision_scope
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fNight Vision Scope'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 18
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bbb
+  - ccd
+  - bbb
+  shaped: true
+  items:
+  - item: minecraft:COPPER_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:GLASS
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:SEA_LANTERN
+    amount: 1
+    allowDamaged: false
+    key: d

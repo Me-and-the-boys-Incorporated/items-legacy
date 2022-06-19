@@ -1,0 +1,39 @@
+name: musket
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6"Brown Bess" Musket'
+  lore:
+  - '&aBullets: 0/1'
+  - '&aDamage: 10.0'
+  - '&2DPS: 10.0'
+  - '&aAmmo: &fMusket Ball'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-298007956,-2058597835,-1674625322,1606934233]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 36
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bbc
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: c

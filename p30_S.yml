@@ -1,0 +1,33 @@
+name: p30_S
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6P30[Silenced]'
+  lore:
+  - '&aBullets: 0/12'
+  - '&aDamage: 3.0'
+  - '&2DPS: 9.0'
+  - '&aAmmo: &f9mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;2119129433,-1020769261,-1523031999,1283149385]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 23
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shaped: false
+  items:
+  - item: supressor
+    amount: 1
+    allowDamaged: false
+  - item: p30
+    amount: 1
+    allowDamaged: false
