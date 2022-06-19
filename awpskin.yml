@@ -1,0 +1,39 @@
+name: awpskin
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6AWP[Asiimov-skin]'
+  lore:
+  - '&aBullets: 0/12'
+  - '&aDamage: 10.0'
+  - '&2DPS: 10.0'
+  - '&aAmmo: &f7.62x39mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;292531945,-328711877,-1957117990,-252235277]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 24
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - xbc
+  - xxx
+  shaped: true
+  items:
+  - item: awp
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:WITHER_SKELETON_SKULL
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

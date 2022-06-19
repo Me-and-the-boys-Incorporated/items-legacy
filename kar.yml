@@ -1,0 +1,47 @@
+name: kar
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Kar-98K'
+  lore:
+  - '&aBullets: 0/6'
+  - '&aDamage: 10.0'
+  - '&2DPS: 10.0'
+  - '&aAmmo: &f7.62x39mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;880655317,-233356374,-1769988605,850938624]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 60
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - cde
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: wooden_stock
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: kar_body
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: e

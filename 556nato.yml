@@ -1,0 +1,36 @@
+name: 556nato
+category: ammo
+item:
+  material: PHANTOM_MEMBRANE
+  displayName: '&f5.56 NATO'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-1603143942,1086343808,-1463594789,-434509200]}],Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 2
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bbb
+  - ccd
+  - bbb
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:GUNPOWDER
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:IRON_NUGGET
+    amount: 5
+    allowDamaged: false
+    key: d
+  resultAmount: 10
+handlers: {}

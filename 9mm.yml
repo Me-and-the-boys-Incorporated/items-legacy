@@ -1,0 +1,40 @@
+name: 9mm
+category: ammo
+item:
+  material: PHANTOM_MEMBRANE
+  displayName: '&f9mm'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1273234055,-800569812,-1396372403,-514757030]}],Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 1
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bcb
+  - bdb
+  - beb
+  shaped: true
+  items:
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_NUGGET
+    amount: 2
+    allowDamaged: false
+    key: c
+  - item: minecraft:GUNPOWDER
+    amount: 2
+    allowDamaged: false
+    key: d
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: e
+  resultAmount: 10
+handlers: {}

@@ -1,0 +1,40 @@
+name: 50bmg
+category: ammo
+item:
+  material: PHANTOM_MEMBRANE
+  displayName: '&f.50BMG'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;48641718,2090749951,-1318200375,-1820155073]}],Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 7
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcb
+  - ded
+  - ded
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:COPPER_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:GOLD_INGOT
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: minecraft:GUNPOWDER
+    amount: 3
+    allowDamaged: false
+    key: e
+  resultAmount: 5

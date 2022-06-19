@@ -1,0 +1,44 @@
+name: flamer
+category: guns
+
+item:
+  material: CROSSBOW
+  displayName: '&6Flamer'
+  lore:
+  - '&aBullets: 0/60'
+  - '&aDamage: 1.0'
+  - '&2DPS: 10.0'
+  - '&aAmmo: &fFlamerFuel'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{Charged:0b,Damage:0}'
+texture:
+  type: item
+  item:
+    id: 65
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bcd
+  - xcc
+  shaped: true
+  items:
+  - item: iron_stock
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: long_barrel
+    amount: 1
+    allowDamaged: false
+    key: d

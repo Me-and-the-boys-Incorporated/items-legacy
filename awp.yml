@@ -1,0 +1,47 @@
+name: awp
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6AWP'
+  lore:
+  - '&aBullets: 0/12'
+  - '&aDamage: 10.0'
+  - '&2DPS: 10.0'
+  - '&aAmmo: &f7.62x39mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{Charged:0b,Damage:0}'
+texture:
+  type: item
+  item:
+    id: 20
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - xcd
+  - xex
+  shaped: true
+  items:
+  - item: scope
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: awp_body
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: long_barrel
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: sniper_magazine
+    amount: 1
+    allowDamaged: false
+    key: e
+handlers: {}

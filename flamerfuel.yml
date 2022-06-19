@@ -1,0 +1,37 @@
+name: flamerfuel
+category: ammo
+
+item:
+  material: BLAZE_POWDER
+  displayName: '&fFlamerFuel'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 1
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bbb
+  - bcd
+  - bbb
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:GUNPOWDER
+    amount: 64
+    allowDamaged: false
+    key: c
+  - item: minecraft:BLAZE_POWDER
+    amount: 32
+    allowDamaged: false
+    key: d
+  resultAmount: 60

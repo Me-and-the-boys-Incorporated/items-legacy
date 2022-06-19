@@ -1,0 +1,35 @@
+name: dragunov_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fDragunov Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 53
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bcd
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:COPPER_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: d

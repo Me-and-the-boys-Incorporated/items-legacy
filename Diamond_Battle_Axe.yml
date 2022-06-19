@@ -1,0 +1,43 @@
+name: Diamond_Battle_Axe
+category: weapons
+item:
+  material: DIAMOND_AXE
+  displayName: '&fDiamond Battle Axe'
+  textureID: 1
+
+  attributes:
+    attackDamage: 11.5
+    attackSpeed: -3.0
+
+  durability: 2061
+  damageable: true
+
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+
+recipes:
+- shape:
+  - bcb
+  - xdx
+  - xdx
+  shaped: true
+  items:
+  - item: diamond_axe_blade
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:DIAMOND
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: d

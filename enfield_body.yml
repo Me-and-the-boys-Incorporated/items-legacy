@@ -1,0 +1,31 @@
+name: enfield_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fEnfield Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 60
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcc
+  - bbx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: c

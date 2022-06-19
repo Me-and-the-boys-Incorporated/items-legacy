@@ -1,0 +1,36 @@
+name: '762'
+category: ammo
+item:
+  material: PHANTOM_MEMBRANE
+  displayName: '&f7.62x39mm'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-1337521625,-1885712806,-1891729611,-103687592]}],Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 3
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bbb
+  - ccd
+  - bbb
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:GUNPOWDER
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:IRON_INGOT
+    amount: 2
+    allowDamaged: false
+    key: d
+  resultAmount: 10
+handlers: {}

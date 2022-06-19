@@ -1,0 +1,36 @@
+name: golden_rapier
+category: weapons
+
+item:
+  material: GOLDEN_HOE
+  displayName: Golden Rapier
+  textureID: 2
+  attributes:
+    attackDamage: 4
+    attackSpeed: 1
+  durability: 32
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - bbb
+  - xcx
+  shaped: true
+  items:
+  - item: minecraft:GOLD_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

@@ -1,0 +1,43 @@
+name: fiveseven
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6FN-Five-Seven'
+  lore:
+  - '&aBullets: 0/12'
+  - '&aDamage: 3.0'
+  - '&2DPS: 9.0'
+  - '&aAmmo: &f9mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-642206300,-1556198588,-1988984329,-889718620]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 69
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - ccx
+  - xdx
+  shaped: true
+  items:
+  - item: Pistol_Body
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: plastic
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: Pistol_Magazine
+    amount: 1
+    allowDamaged: false
+    key: d

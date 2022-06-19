@@ -1,0 +1,39 @@
+name: iron_hammer
+category: weapons
+
+item:
+  material: IRON_AXE
+  displayName: Iron War Hammer
+  textureID: 2
+  attributes:
+    attackDamage: 9.5
+    attackSpeed: -3
+  enchantments:
+    "minecraft:KNOCKBACK": 1
+
+  durability: 750
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbb
+  - xbb
+  - cxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

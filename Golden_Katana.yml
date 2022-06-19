@@ -1,0 +1,33 @@
+name: Golden_Katana
+category: weapons
+item:
+  material: GOLDEN_SWORD
+  displayName: '&fGolden Katana'
+  lore:
+  - '&7&oDurability: 32 / 32'
+  nbt: '{Damage:0}'
+texture:
+  type: item
+  item:
+    id: 1
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxb
+  - xbx
+  - cxx
+  shaped: true
+  items:
+  - item: minecraft:GOLD_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

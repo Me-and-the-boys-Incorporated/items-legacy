@@ -1,0 +1,27 @@
+name: Left_Golden_Axe_Blade
+category: weapon_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fGolden Axe Blade'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 5
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - bxx
+  - xbx
+  shaped: true
+  items:
+  - item: minecraft:GOLD_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b

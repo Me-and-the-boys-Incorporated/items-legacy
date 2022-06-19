@@ -1,0 +1,31 @@
+name: Awp Body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fAwp Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 43
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbc
+  - bbc
+  - bbx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

@@ -1,0 +1,17 @@
+name: 40mm
+category: ammo
+
+item:
+  material: PHANTOM_MEMBRANE
+  displayName: '&f40x46mm'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;609516407,542984938,-2114126801,1284570112]}],Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 8
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}

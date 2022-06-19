@@ -1,0 +1,50 @@
+name: famas
+item:
+  material: CROSSBOW
+  displayName: '&6FAMAS-G2'
+  lore:
+  - '&aBullets: 30/30'
+  - '&aDamage: 3.0'
+  - '&2DPS: 18.0'
+  - '&aAmmo: &f5.56 NATO'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[Sneak]+[LMB] to use Automatic-fire'
+  - '&8[RMB] to reload'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1654400667,-1118092544,-1537733935,1595715974]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 64
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - bxb
+  - cde
+  - xfx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: iron_stock
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: m4a1s_body
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: e
+  - item: riffle_magazine
+    amount: 1
+    allowDamaged: false
+    key: f
+handlers: {}

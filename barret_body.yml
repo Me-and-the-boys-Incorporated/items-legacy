@@ -1,0 +1,31 @@
+name: Barret Body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fBarrett Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 48
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bbb
+  - cbc
+  - xxc
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:NETHERITE_INGOT
+    amount: 1
+    allowDamaged: false
+    key: c

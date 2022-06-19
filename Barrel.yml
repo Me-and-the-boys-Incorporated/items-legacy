@@ -1,0 +1,27 @@
+name: Barrel
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fBarrel'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 13
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bbx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b

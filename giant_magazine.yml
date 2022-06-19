@@ -1,0 +1,27 @@
+name: giant_magazine
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fGiant Magazine'
+  nbt: '{}'
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - bxb
+  - bbb
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+texture:
+  type: item
+  item:
+    id: 72

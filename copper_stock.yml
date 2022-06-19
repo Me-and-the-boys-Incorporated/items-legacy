@@ -1,0 +1,27 @@
+name: copper_stock
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fCopper Stock'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 15
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bbb
+  - bbx
+  - bxx
+  shaped: true
+  items:
+  - item: minecraft:COPPER_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b

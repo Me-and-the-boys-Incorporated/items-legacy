@@ -1,0 +1,27 @@
+name: left_iron_axe_blade
+category: weapon_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fIron Axe Blade'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 7
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - bxx
+  - xbx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+handlers: {}

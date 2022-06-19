@@ -1,0 +1,39 @@
+name: flintknock
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6"Harper''s Ferry" Flintlock Pistol'
+  lore:
+  - '&aBullets: 0/1'
+  - '&aDamage: 10.0'
+  - '&2DPS: 10.0'
+  - '&aAmmo: &fMusket Ball'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1632934221,-249413302,-1314049002,-557936585]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 31
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xxx
+  - bcx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: c

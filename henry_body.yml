@@ -1,0 +1,35 @@
+name: henry_body
+category: gun_parts
+item:
+  material: IRON_INGOT
+  displayName: '&fHenry Riffle Body'
+  nbt: '{}'
+texture:
+  type: item
+  item:
+    id: 57
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbb
+  - cdx
+  - cdx
+  shaped: true
+  items:
+  - item: minecraft:GOLD_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:OAK_PLANKS
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: d

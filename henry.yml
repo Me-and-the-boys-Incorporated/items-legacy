@@ -1,0 +1,43 @@
+name: henry
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Henry Rifle'
+  lore:
+  - '&aBullets: 0/6'
+  - '&aDamage: 4.0'
+  - '&2DPS: 12.0'
+  - '&aAmmo: &f5.56 NATO'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-2046519407,-1699394399,-1298641984,-1104957359]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 76
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xxx
+  - bcd
+  - xxx
+  shaped: true
+  items:
+  - item: wooden_stock
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: henry_body
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: Barrel
+    amount: 1
+    allowDamaged: false
+    key: d
+handlers: {}

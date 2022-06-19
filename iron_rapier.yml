@@ -1,0 +1,39 @@
+name: iron_rapier
+category: weapons
+
+item:
+  material: IRON_HOE
+  displayName: Iron Rapier
+  textureID: 2
+  attributes:
+    attackDamage: 6
+    attackSpeed: 1
+  durability: 250
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - bbb
+  - xcx
+  shaped: true
+  items:
+  - item: minecraft:IRON_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

@@ -1,0 +1,48 @@
+name: glock17
+category: guns
+item:
+  material: CROSSBOW
+  displayName: '&6Glock-17'
+  lore:
+  - '&7Varient: 2'
+  - '&aBullets: 0/15'
+  - '&aDamage: 3.0'
+  - '&2DPS: 9.0'
+  - '&aAmmo: &f9mm'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;1562995858,-116833778,-1866369383,1994393131]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 1
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - bcx
+  - bdx
+  - bex
+  shaped: true
+  items:
+  - item: plastic
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: Pistol_Body
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: minecraft:IRON_NUGGET
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: Pistol_Magazine
+    amount: 1
+    allowDamaged: false
+    key: e

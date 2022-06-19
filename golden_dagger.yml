@@ -1,0 +1,36 @@
+name: golden_dagger
+category: weapons
+
+item:
+  material: GOLDEN_SWORD
+  displayName: Golden Dagger
+  textureID: 2
+  attributes:
+    attackDamage: 2
+    attackSpeed: 0.5
+  durability: 75
+  damageable: true
+  hideDurability: false
+  hideDurabilityBar: false
+  hideAttributes: false
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+recipes:
+- shape:
+  - xbx
+  - xcx
+  - xxx
+  shaped: true
+  items:
+  - item: minecraft:GOLD_INGOT
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: minecraft:STICK
+    amount: 1
+    allowDamaged: false
+    key: c
+handlers: {}

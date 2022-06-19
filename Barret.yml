@@ -1,0 +1,52 @@
+name: Barret
+category: Guns
+item:
+
+  material: CROSSBOW
+  displayName: '&6Barrett-M82'
+  lore:
+  - '&aBullets: 0/10'
+  - '&aDamage: 17.0'
+  - '&2DPS: 17.0'
+  - '&aAmmo: &f.50BMG'
+  - '&8[LMB] to use Single-fire mode'
+  - '&8[RMB] to reload'
+  - '&8[Sneak] to open ironsights'
+  nbt: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"generic.attackSpeed",Operation:0,UUID:[I;-1527612187,-2056565139,-1674910486,-1981300320]}],Charged:0b,Damage:0,Unbreakable:1b}'
+texture:
+  type: item
+  item:
+    id: 52
+canBeUsedGenerically: false
+canBePlaced: false
+enchantable: false
+glows: false
+consumable: false
+handlers: {}
+recipes:
+- shape:
+  - xbx
+  - cde
+  - xfx
+  shaped: true
+  items:
+  - item: night_vision_scope
+    amount: 1
+    allowDamaged: false
+    key: b
+  - item: copper_stock
+    amount: 1
+    allowDamaged: false
+    key: c
+  - item: barret_body
+    amount: 1
+    allowDamaged: false
+    key: d
+  - item: long_barrel
+    amount: 1
+    allowDamaged: false
+    key: e
+  - item: sniper_magazine
+    amount: 1
+    allowDamaged: false
+    key: f
